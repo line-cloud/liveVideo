@@ -1,0 +1,159 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+
+address, caption, cite, code, dfn, em, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+.has-gutter .cell{
+		text-align: center;
+	}
+
+
+	.container{
+     margin-bottom: 40px;
+  }
+    .video-js{
+        width: 100%;
+        height: 2.1rem;
+    }
+    .video-js .vjs-big-play-button{
+        width: 2em;
+        border-radius: 1em;
+  }
+  .vjs-custom-skin > .video-js .vjs-big-play-button{
+      margin-left: -1em;
+  }
+  .player{
+    position: relative;
+  }
+  .coverLayer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    z-index: 1000
+  }
+  .textMain{
+    margin-left: 0.15rem;
+  }
+  .textTitle{
+    display: inline-block;
+    color: #252729;
+    font-size: 18px;
+    margin-top: 0.16rem;
+    font-weight: Medium;
+  }
+
+  .vjs-custom-skin > .video-js .vjs-progress-control.vjs-control{
+        opacity: 0;
+        z-index: -10;
+  }
+  .vjs-custom-skin > .video-js .vjs-control-bar .vjs-time-control{
+      display: none;
+  }
+  .avatarImg{
+    position: absolute;
+     width: 0.81rem;
+     /*height: 0.81rem;*/
+     border-radius: 50%;
+     top:0rem;
+     left: 0;
+     margin-top: 0.18rem;
+  }
+  .textStar{
+    width: 0.14rem;
+    height: 0.14rem;
+    position: relative;
+    top: 0.02rem;
+    margin-left: 0.01rem;
+  }
+  .liveBegin{
+      width: 1.02rem;
+      height: 0.35rem;
+      background-color: #FF7019;
+      color:#fff;
+      text-align: center;
+      line-height: 0.35rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      border-radius: 5px;
+      /*-webkit-transform: translate(-50%,-50%);*/
+      margin-top: -1em !important;
+      margin-left: -3.5em;
+  }
+  .liveing{
+     width: 0.45rem;
+     height: 0.2rem;
+     border-radius: 3px;
+     background-color: #FF7019; 
+     color:#fff;
+      text-align: center;
+      line-height: 0.2rem;
+     font-size: 12px;
+     position: absolute;
+     right: 0.35rem;
+     top: 0.17rem;
+     z-index: 1000;
+  }
+  .video-js:hover .vjs-big-play-button, .vjs-custom-skin > .video-js .vjs-big-play-button:focus, .vjs-custom-skin > .video-js .vjs-big-play-button:active{
+      background-color:rgba(0,0,0,0.45);
+  }
+ @media screen and (min-width: 800px) {
+    .container{
+       width: 375px;
+   }
+    .video-js{
+        width: 375px;;
+        height: 210px;
+    }
+  .textMain{
+    margin-left: 15px;
+  }
+  .textTitle{
+    margin-top: 16px;
+  }
+   .teacherCon{
+     margin-left:100px;
+     margin-top: 15px;
+  }
+  .avatarImg{
+     width: 81px;
+     margin-top: 18px;
+  }
+  .textStar{
+    width:14px;
+    height: 14px;
+    top: 2px;
+    margin-left: 1px
+  }
+  .liveBegin{
+      width: 102px;
+      height: 35px;
+      line-height:  35px;
+      border-radius: 5px;
+  }
+   .teacherintro{
+     width:345px;
+  }
+  .liveing{
+     width: 45px;
+     height: 20px;
+      line-height: 20px;
+     right: 35px;
+     top: 17px;
+  }
+
+  .courseImg{
+     width: 338px;
+     }
+  }  
